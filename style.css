@@ -1,0 +1,141 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body h1{
+    text-align: center;
+}
+
+.pokemon-container{
+    flex-wrap: wrap;
+    gap: 5px 5px;
+    display: flex;
+}
+.pokemon-id{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.card{
+    border: 1px solid #000000;
+    width: 120px;
+    height: 230px;
+    box-shadow: 0px 1px 5px #0000;
+    margin-left: 0.5px;
+    transition: transform 0.5s, box-shadow 0.5s; /* Smooth transition */
+     margin-left: 0.5px;
+    background-color: #a9a9a9;
+}
+ .card:hover{
+    box-shadow: 0px 1px 15px #000;
+    transform: translateY(-10px);
+} 
+
+.card img{
+    width: 100%;
+    padding: 2px;
+}
+.card ul{
+    padding: 0px;
+    margin: -10px;
+    text-align: center;
+}
+.pokemon-name{
+    color: rgb(2, 2, 2);
+    font-weight: 1000;
+    margin-bottom: 12px;
+}
+
+.pokemon-class .water{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color: blue;
+}
+.pokemon-class .psychic{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color: pink;
+}
+.pokemon-class .fire{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color: red;
+}
+
+.pokemon-class .grass{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color: green;
+}
+
+.pokemon-class .electric{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color: yellow;
+}
+
+.pokemon-class .ground{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:brown;
+}
+
+.pokemon-class .flying{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:skyblue;
+}
+
+.pokemon-class .fighting{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:rgb(244, 159, 0);
+}
+
+.pokemon-class .poison{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:purple;
+}
+
+.pokemon-class .fairy{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:rgb(244, 64, 244);
+}
+
+.pokemon-class .dark{
+    color: white;
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:rgb(20, 15, 20);
+}
+
+.pokemon-class .ice{
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 30%; 
+    padding: 5px 20px; 
+    background-color:rgb(13, 223, 209);
+}
